@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+version = '1.0'
+
+sourceCompatibility = 1.8
+
+dependencies {
+
+	compile("org.springframework.boot:spring-boot-starter:1.4.3.RELEASE")
+
+	testCompile("org.springframework.boot:spring-boot-starter-test:1.4.3.RELEASE")
+}
+
+repositories {
+	mavenCentral()
+}
